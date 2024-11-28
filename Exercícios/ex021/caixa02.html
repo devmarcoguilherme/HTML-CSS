@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin:0px;
+        }
+        header{
+            background-color: whitesmoke;
+            padding:10px;
+            margin:10px;
+        }
+        nav{
+            background-color: rgb(65, 65, 65);
+            box-shadow: 3px 2px 1px 0px #00000091;
+        }
+        
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 2px 5px 5px 0px #00000082;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(97, 96, 96);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+        
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate exercitationem illum eos sed asperiores! Delectus eius dolore suscipit modi quisquam praesentium soluta qui quos? Reiciendis voluptate sapiente nobis sunt repellendus.</p>
+                <aside>
+                    <p>Artigo escrito por Guilherme Marco</p>
+                </aside>
+            </article>
+            <article>
+                <aside>
+
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Marco Guilherme</p>
+    </footer>
+</body>
+</html>

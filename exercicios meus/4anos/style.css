@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handlee&display=swap');
+
+:root{
+    --degrade1:#52D1E4;
+    --degrade2:#01779B;
+    --degrade3:#001C27;
+
+    --cor1:#D4F3FF;
+    --cor2:#A4DFF6;
+    --cor3: #66AFCC;
+    --cor4: #3683A2;
+    --cor5:#145B77;
+
+    --fonte:'Handlee';
+}
+
+body{
+    margin: 0;
+    background-color: #00374D;
+}
+
+.carta{
+    background-image: linear-gradient(to bottom, #52D1E4, #01779B, #00374D);
+    text-align: center;
+    padding: 20px;
+    font-family: 'Handlee';
+    color: #9DDAE3;
+}
+
+.container {
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+}
+
+.img {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%, -10%);
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.473);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main p{
+    margin: 10px;
+    background-color: white;
+    text-align: justify;
+    font-family: var(--fonte);
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+main h2{
+    text-indent: 8px;
+    font-family: var(--fonte);
+    color: #7cdaff;
+    background-color: #3683A2;
+    border-radius: -20px -20px;
+    margin:0px;  
+}
+
+strong{
+    text-decoration: underline;
+    color: #01779B;
+}
+
+a{
+    text-decoration: none;
+    color: #00374D
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.card {
+    width: 200px; /* Ajuste o tamanho do card conforme necessário */
+    height: 200px;
+    position: relative;
+    overflow: hidden; /* Para esconder o conteúdo que extrapolar */
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* A imagem preenche todo o espaço, cortando as partes que não cabem */
+  }
+  
+  .titulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Ajuste a cor do texto para contraste com a imagem */
+    text-align: center;
+  }
+
+  .card {
+    /* ... */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+  }
+  
+  .card:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+.galeria{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Handlee';
+    color: #9DDAE3;
+}
+
+.audio{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.473);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
